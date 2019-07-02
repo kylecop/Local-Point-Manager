@@ -36,6 +36,7 @@ function displayCoins(){
           echo "<p>Bank : $".number_format(((int)$amount/100), 2, '.', ' ')."</p>";
           echo "<p><form action=\"index.php\" method=\"post\"><input type=\"submit\" name=\"EnableAccount".$userForBankAccount."\" value=\"Enable Account\" /></form></p>";
           echo "<p><form action=\"index.php\" method=\"post\"><input type=\"submit\" name=\"DisableAccount".$userForBankAccount."\" value=\"Disable Account\" /></form></p>";
+          echo "<p><form action=\"index.php?action=add&user=".$userForBankAccount."&amount=20\" method=\"post\"><input type=\"submit\" name=\"Add20Coins".$userForBankAccount."\" value=\"Add 20 Coins\" /></form></p>";
           echo "</div>";
         } else {
           $amount = 0;

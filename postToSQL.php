@@ -1,5 +1,5 @@
 <?PHP
-include('passwords.php');
+
 function postToLogSQL($message)
 {
 

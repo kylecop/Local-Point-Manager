@@ -2,6 +2,7 @@
 
 
 function displayCoins(){
+  $userForBankAccount = " ";
   $fileToOpen = "C:\Program Files (x86)\EasyBits For Kids\_Users.dat";
   $file = fopen_utf8($fileToOpen);
   echo "";

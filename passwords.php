@@ -1,3 +1,6 @@
 <?php
 
-$Sql_Password = "***REMOVED***";
+$SqlUsername = "**removed**";
+$SqlPassword = "**removed**";
+
+?>

@@ -1,6 +1,6 @@
 <?php
-
-function getLogFromSQL($SqlUsername,$SqlPassword)
+include('passwords.php');
+function getLogFromSQL()
 {
 
 $servername = "127.0.0.1";
@@ -36,7 +36,7 @@ $conn->close();
 
 }
 
-function getBankAccountFromSQL($userForBankAccount,$SqlUsername, $SqlPassword)
+function getBankAccountFromSQL($userForBankAccount)
 {
 $servername = "127.0.0.1";
 $username = $SqlUsername;
@@ -70,7 +70,7 @@ return $bankAccountResult;
 
 
 
-function getSqlString($sqlQuery,$SqlUsername,$SqlPassword)
+function getSqlString($sqlQuery)
 {
 $servername = "127.0.0.1";
 $username = $SqlUsername;

@@ -1,6 +1,5 @@
 <?php
 
-include('postToSQL.php');
 
 
 function fopen_utf8($filename){

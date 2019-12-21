@@ -1,5 +1,5 @@
 <?PHP
-
+include('postToSQL.php');
 function addCoins ($user, $action, $amount)
 {
 

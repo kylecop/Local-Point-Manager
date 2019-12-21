@@ -1,11 +1,11 @@
 <?php
 
-function getLogFromSQL()
+function getLogFromSQL($SqlUsername,$SqlPassword)
 {
 
 $servername = "127.0.0.1";
-$username = "kyle";
-$password = "**removed**";
+$username = $SqlUsername;
+$password = $SqlPassword;
 $dbname = "beatspoints";
 
 // Create connection
@@ -36,11 +36,11 @@ $conn->close();
 
 }
 
-function getBankAccountFromSQL($userForBankAccount)
+function getBankAccountFromSQL($userForBankAccount,$SqlUsername, $SqlPassword)
 {
 $servername = "127.0.0.1";
-$username = "kyle";
-$password = "**removed**";
+$username = $SqlUsername;
+$password = $SqlPassword;
 $dbname = "beatspoints";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -70,11 +70,11 @@ return $bankAccountResult;
 
 
 
-function getSqlString($sqlQuery)
+function getSqlString($sqlQuery,$SqlUsername,$SqlPassword)
 {
 $servername = "127.0.0.1";
-$username = "kyle";
-$password = "**removed**";
+$username = $SqlUsername;
+$password = $SqlPassword;
 $dbname = "beatspoints";
 
 $conn = new mysqli($servername, $username, $password, $dbname);

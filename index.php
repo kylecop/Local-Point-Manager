@@ -1,12 +1,12 @@
 <?php
 
 include('header.php');
-//include('addCoins.php');
+include('addCoins.php');
 include('getFromSQL.php');
 include('fopen_utf8.php');
 include('displayCoins.php');
 include('displayCoinManagement.php');
-include('postToSQL.php');
+//include('postToSQL.php');
 include('displaySettings.php');
 include('unlockAccounts.php');
 if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['DisableSessions']))

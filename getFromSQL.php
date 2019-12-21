@@ -5,7 +5,7 @@ function getLogFromSQL()
 
 $servername = "127.0.0.1";
 $username = "kyle";
-$password = "***REMOVED***";
+$password = "**removed**";
 $dbname = "beatspoints";
 
 // Create connection
@@ -40,7 +40,7 @@ function getBankAccountFromSQL($userForBankAccount)
 {
 $servername = "127.0.0.1";
 $username = "kyle";
-$password = "***REMOVED***";
+$password = "**removed**";
 $dbname = "beatspoints";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -74,7 +74,7 @@ function getSqlString($sqlQuery)
 {
 $servername = "127.0.0.1";
 $username = "kyle";
-$password = "***REMOVED***";
+$password = "**removed**";
 $dbname = "beatspoints";
 
 $conn = new mysqli($servername, $username, $password, $dbname);

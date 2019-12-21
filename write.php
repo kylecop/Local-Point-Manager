@@ -5,7 +5,7 @@ function postToSQL($messageToPost)
 
 $servername = "127.0.0.1";
 $username = "kyle";
-$password = "***REMOVED***";
+$password = "**removed**";
 $dbname = "beatspoints";
 
 // Create connection

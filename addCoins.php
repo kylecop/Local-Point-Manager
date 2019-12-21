@@ -51,7 +51,7 @@ while(! feof($file)){
   }
 
 	//postToSQL(date("Y-m-d H:i:s").", ".$user.", ".$action.", old total: ".$coins[1]." new total: ".$newcoins." ");
-	postToSQL(date("Y-m-d H:i:s")." ".$logMessage);
+	postToLogSQL(date("Y-m-d H:i:s")." ".$logMessage);
 	header( 'Location: '.$_SERVER['PHP_SELF'] ) ;
 fclose($file);
 

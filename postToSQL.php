@@ -5,7 +5,7 @@ function postToLogSQL($message)
 
 $servername = "127.0.0.1";
 $username = "kyle";
-$password = "***REMOVED***";
+$password = "**removed**";
 $dbname = "beatspoints";
 
 // Create connection
@@ -32,7 +32,7 @@ function postToBankAccountsSQL($user,$amount)
 
 $servername = "127.0.0.1";
 $username = "kyle";
-$password = "***REMOVED***";
+$password = "**removed**"";
 $dbname = "beatspoints";
 
 // Create connection
@@ -59,7 +59,7 @@ function createBankAccountSQL($user)
 
 $servername = "127.0.0.1";
 $username = "kyle";
-$password = "***REMOVED***";
+$password = "**removed**"";
 $dbname = "beatspoints";
 
 // Create connection
@@ -86,7 +86,7 @@ function postToSqlComputerSettings($tableName, $insertValues, $insertColumns)
 
 $servername = "127.0.0.1";
 $username = "kyle";
-$password = "***REMOVED***";
+$password = "**removed**"";
 $dbname = "beatspoints";
 
 // Create connection

@@ -1,5 +1,4 @@
 <?php
-include('passwords.php');
 function getLogFromSQL()
 {
 

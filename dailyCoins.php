@@ -1,7 +1,7 @@
 <?php
 
 include('header.php');
-include('addCoins.php');
+//include('addCoins.php');
 include('getFromSQL.php');
 include('fopen_utf8.php');
 include('displayCoins2.php');

@@ -9,7 +9,7 @@ function displaySettings(){
     $sessionStatus = "No";
   }
   echo "Sessions Limit: ".getSqlString("SELECT value FROM settings WHERE `settingName`='sessionLimit'")." minutes";
-  echo "<br>Sessions Disabled: ".$sessionStatus;
+  echo "<br>Games Disabled: ".$sessionStatus;
   
   echo "<br>Number of Coins Required: ".getSqlString("SELECT value FROM settings WHERE `settingName`='numCoinsRequired'");
   echo "<form action=\"index.php\" method=\"post\"><input type=\"submit\" name=\"DisableSessions\" value=\"Disable Sessions\" /></form>";
